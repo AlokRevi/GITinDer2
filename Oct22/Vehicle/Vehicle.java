@@ -1,4 +1,5 @@
-package Oct22;
+package Oct22.Vehicle;
+
 /*
 1.	Create a Vehicle class with the following:
 ○	A brand attribute (String).
@@ -16,19 +17,22 @@ Requirements:
 ●	In the main() method, create instances of Car and Bike, and call their displayInfo() methods to demonstrate method overriding.
 
  */
-public class Vehicle {
 
+//PARENT CLASS
+public class Vehicle {
     String brand;
     int speed;
 
-    public vehicle (String brand, int speed) {
+    public Vehicle() {
+    }
+
+    public Vehicle(String brand, int speed) {
         this.brand = brand;
         this.speed = speed;
     }
 
-    public displayInfo() {
-        return System.out.println("The brand of the car is " + brand + "and it has a top speed of" + speed );
-    }
-
+    public void displayInfo() {
+        System.out.println("Car brand : " + brand);
+        System.out.println("Top Speed : " + speed);
     }
 }
