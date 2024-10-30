@@ -9,8 +9,10 @@ public class Book {
     String id;
 
     public Book() {
-        genre = "unknown";
         title = "unknown";
+        author = "unknown";
+        genre = "unknown";
+        id = "unknown";
     }
 
     //Parameterized constructor - String
