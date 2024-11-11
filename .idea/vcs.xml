@@ -2,8 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Practice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assignments/Assignment_2_Arrays" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java_Maven" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MavenTest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Practice-Forked" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sunny" vcs="Git" />
   </component>
 </project>

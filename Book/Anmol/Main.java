@@ -11,6 +11,7 @@ public class Main {
 
         // Creating NonFiction book instance
         NonFiction nonFictionBook = new NonFiction("Sapiens", "Yuval Noah Harari", "9780062316097", 498, "History");
+
         System.out.println("NonFiction Book Details:");
         nonFictionBook.displayInfo();
     }
