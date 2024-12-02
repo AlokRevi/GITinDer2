@@ -1,3 +1,4 @@
+/*
 package ClassFiles.ExceptionHandling;
 
 public class NullPointerException {
@@ -12,3 +13,4 @@ public class NullPointerException {
     }
 }
 
+*/
